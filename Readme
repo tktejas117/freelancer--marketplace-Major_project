@@ -1,34 +1,3 @@
-Freelancer Marketplace (MERN Stack Project)
-
-This is a full-stack freelance marketplace application built with the MERN stack (MongoDB, Express.js, React, Node.js). It allows clients to post projects and freelancers to bid on them, similar to platforms like Upwork or Freelancer.
-
-Features
-
-User Authentication: Secure registration and login for both Clients and Freelancers.
-
-Role-Based Dashboards: Separate, dedicated dashboards for Clients and Freelancers.
-
-Project Posting: Clients can post new projects.
-
-Project Browsing: Freelancers can browse, search, and filter available projects.
-
-Proposal System: Freelancers can submit detailed proposals to projects.
-
-Profile Management: Freelancers can create and edit their profiles, including skills, bio, and portfolio.
-
-How to Run This Project
-
-Follow these instructions to get a local copy up and running.
-
-Prerequisites
-
-You must have the following installed on your computer:
-
-Node.js (which includes npm)
-
-Git
-
-MongoDB (or a MongoDB Atlas account)
 
 Installation & Setup
 
