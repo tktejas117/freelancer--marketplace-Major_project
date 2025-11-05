@@ -1,0 +1,83 @@
+Freelancer Marketplace (MERN Stack Project)
+
+This is a full-stack freelance marketplace application built with the MERN stack (MongoDB, Express.js, React, Node.js). It allows clients to post projects and freelancers to bid on them, similar to platforms like Upwork or Freelancer.
+
+Features
+
+User Authentication: Secure registration and login for both Clients and Freelancers.
+
+Role-Based Dashboards: Separate, dedicated dashboards for Clients and Freelancers.
+
+Project Posting: Clients can post new projects.
+
+Project Browsing: Freelancers can browse, search, and filter available projects.
+
+Proposal System: Freelancers can submit detailed proposals to projects.
+
+Profile Management: Freelancers can create and edit their profiles, including skills, bio, and portfolio.
+
+How to Run This Project
+
+Follow these instructions to get a local copy up and running.
+
+Prerequisites
+
+You must have the following installed on your computer:
+
+Node.js (which includes npm)
+
+Git
+
+MongoDB (or a MongoDB Atlas account)
+
+Installation & Setup
+
+1. Clone the Repository
+
+git clone [https://github.com/tktejas117/freelancer--marketplace-Major_project.git](https://github.com/tktejas117/freelancer--marketplace-Major_project.git)
+cd freelancer--marketplace-Major_project
+
+
+2. Install Server Dependencies
+Navigate to the server folder and install its packages.
+
+cd server
+npm install
+
+
+3. Install Client Dependencies
+Navigate to the client folder and install its packages.
+
+cd ../client
+npm install
+
+
+4. Create the Environment File
+This is a critical step for connecting to the database.
+
+In the server folder, create a new file named .env.
+
+Open this file and add your MongoDB connection string, like this:
+
+MONGODB_URI=your_mongodb_connection_string_here
+
+
+Running the Application
+
+You must run both the server and the client in two separate terminals.
+
+Terminal 1: Start the Server
+
+# Make sure you are in the /server folder
+npm start
+
+
+Your server will be running on http://localhost:5000 (or as specified in your server code).
+
+Terminal 2: Start the Client
+
+# Make sure you are in the /client folder
+npm start
+
+
+The application will automatically open in your browser at http://localhost:3000.
